@@ -3460,7 +3460,7 @@ a {
 .navigation-desktop {
     width: 100%;
     background-color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
     .navigation-desktop ul.unstyled-list {
@@ -3865,7 +3865,7 @@ input[type=number] {
     }
     .pull-right {
         float: none !important;
-        display:block;        
+        display:block;
     }
     .tab-telasMenores a {
         padding:5px !important;
@@ -3917,3 +3917,62 @@ input[type=number] {
     text-align: left !important;
 }
 
+.card-home {
+    border-radius: 3px;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-home:hover {
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 4px rgba(0,0,0,0.23);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 4px rgba(0,0,0,0.23);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.section-single-body .title {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section-single-body {
+    margin-bottom: 30px;
+}
+
+.section-single-body p {
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+.section-single-body p:last-child {
+    margin-bottom: 0;
+}
+
+.bg-secundario {
+    background-color: #2a3293;
+}
+
+.bbottom-3-secundario {
+    border-bottom: 3px solid #2a3293;
+}
+
+.bbottom-2-secundario {
+    border-bottom: 2px solid #2a3293;
+}
+
+.bbottom-1-secundario {
+    border-bottom: 1px solid #2a3293;
+}

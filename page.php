@@ -3,7 +3,7 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-8">
 				<?php
 				if(have_posts()) {
 				    while(have_posts()) { ?>
@@ -20,6 +20,13 @@
 				    <?php }
 				}
 				?>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<?php if ( is_active_sidebar( 'widgets_direita' ) ) : ?>
+					<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+						<?php dynamic_sidebar( 'widgets_direita' ); ?>
+					</div><!-- #primary-sidebar -->
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>

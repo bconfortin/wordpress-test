@@ -5,6 +5,9 @@
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title><?php generateTitle(); ?></title>
+
 		<link rel="stylesheet" type="text/css" href="<?= $home; ?>/style.css">
 	    <!-- Bootstrap -->
 	    <link rel="stylesheet" type="text/css" href="<?= $home; ?>/bootstrap-3.3.7-dist/css/bootstrap.min.css">
@@ -33,10 +36,14 @@
 	                        <img src="<?= $home; ?>/img/igushuttle-b.png" alt="" class="img-responsive pull-left mtop-30 max-height-20">
 	                    </a>
 	                    <ul class="unstyled-list pull-right">
-	                        <li><a href="">Home</a></li>
-	                        <li><a href="">FAQ </a></li>
-	                        <li><a href="">Blog</a></li>
-	                        <li><a href="">Contato </a></li>
+	                    	<?php
+								$args = array(
+								    'theme_location' => 'header-menu'
+								);
+								// wp_nav_menu( $args );
+	                    	?>
+							<li><?php get_search_form(); ?></li>
+	                        <li><a href="http://igushuttle.com/">Ir para o site</a></li>
 	                    </ul>
 	                </div>
 	            </div>
@@ -53,10 +60,8 @@
 		        </a>
 		        <div class="clearfix"></div>
 		        <ul class="unstyled-list">
-		            <li><a href="">Home</a></li>
-		            <li><a href="">FAQ</a></li>
-		            <li><a href="">Blog</a></li>
-		            <li><a href="">Contato</a></li>
+					<li><?php get_search_form(); ?></li>
+					<li><a href="http://igushuttle.com/">Ir para o site</a></li>
 		        </ul>
 		    </div>
 		    <div class="navigation-mobile">
