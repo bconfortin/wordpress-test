@@ -3957,6 +3957,12 @@ input[type=number] {
     font-size: 1.1em;
 }
 
+.section-single-body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .section-single-body p:last-child {
     margin-bottom: 0;
 }
@@ -3975,4 +3981,41 @@ input[type=number] {
 
 .bbottom-1-secundario {
     border-bottom: 1px solid #2a3293;
+}
+
+.widget-social ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.widget-social ul>li, .widget-social ul>li>a {
+    display: inline-block;
+}
+
+.widget-social .screen-reader-text {
+    display: none;
+}
+
+.widget-social ul>li>a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.widget-social a.genericon {
+    font-size: 28px;
+}
+
+.widget-social a.genericon.genericon-facebook, .widget-social a.genericon.genericon-facebook:focus, .widget-social a.genericon.genericon-facebook:hover {
+    color: #3b5998;
+}
+
+.widget-social a.genericon.genericon-instagram, .widget-social a.genericon.genericon-instagram:focus, .widget-social a.genericon.genericon-instagram:hover {
+    color: #3f729b;
+}
+
+.widget-social a.genericon.genericon-googleplus, .widget-social a.genericon.genericon-googleplus:focus, .widget-social a.genericon.genericon-googleplus:hover {
+    color: #dc4e41;
 }

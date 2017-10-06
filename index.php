@@ -16,7 +16,7 @@
 				    while(have_posts()) {
 						 the_post(); ?>
 						<div class="card-home bg-fff mbottom-30">
-							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive']); ?></a>
+							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive')); ?></a>
 							<div class="padding-15">
 								<h2 class="font-700 font-1-5em text-uppercase mtop-0"><?php the_title(); ?></h2>
 						        <p class="line-height-1-7 font-1-1em"><?= get_the_excerpt(); ?></p>

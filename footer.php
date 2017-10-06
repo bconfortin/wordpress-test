@@ -8,15 +8,13 @@
 		                        <img src="<?= $home ?>/img/igushuttle-w.png" alt="" class="img-responsive pull-left mtop-5 max-height-20">
 		                    </a>
 		                    <ul class="unstyled-list horizontal-list pull-left mbottom-0 mleft-50">
-		                        <li><a href="" class="padhor-15">Mapa do site</a></li>
-		                        <li><a href="" class="padhor-15">Política do site</a></li>
-		                        <li><a href="" class="padhor-15">Contate-nos</a></li>
+		                        <li><a href="http://igushuttle.com/home/Politica-do-Site" class="padhor-15">Política do site</a></li>
+		                        <li><a href="http://igushuttle.com/home/Contato" class="padhor-15">Contate-nos</a></li>
 		                    </ul>
 		                    <ul class="unstyled-list horizontal-list pull-right mbottom-0">
-		                        <li><a href="" class="mleft-5"><i class="fa fa-lg fa-facebook-square"></i></a></li>
-		                        <li><a href="" class="mleft-5"><i class="fa fa-lg fa-instagram"></i></a></li>
-		                        <li><a href="" class="mleft-5"><i class="fa fa-lg fa-twitter"></i></a></li>
-		                        <li><a href="" class="mleft-5"><i class="fa fa-lg fa-google-plus"></i></a></li>
+		                        <li><a href="https://www.facebook.com/igushuttle/" class="mleft-5"><i class="fa fa-lg fa-facebook-square"></i></a></li>
+		                        <li><a href="https://www.instagram.com/igushuttle/" class="mleft-5"><i class="fa fa-lg fa-instagram"></i></a></li>
+		                        <li><a href="https://plus.google.com/u/0/112970958383597837578/" class="mleft-5"><i class="fa fa-lg fa-google-plus"></i></a></li>
 		                    </ul>
 		                </div>
 		            </div>
@@ -29,10 +27,9 @@
 		        <div class="row">
 		            <div class="col-xs-12 text-center">
 		                <p class="mbottom-0 font-1-5em">
-		                    <a href="" class="marhor-5"><i class="fa fa-facebook"></i></a>
-		                    <a href="" class="marhor-5"><i class="fa fa-instagram"></i></a>
-		                    <a href="" class="marhor-5"><i class="fa fa-twitter"></i></a>
-		                    <a href="" class="marhor-5"><i class="fa fa-google-plus"></i></a>
+		                    <li class="marhor-5"><a href="https://www.facebook.com/igushuttle/" class="mleft-5"><i class="fa fa-lg fa-facebook-square"></i></a></li>
+		                    <li class="marhor-5"><a href="https://www.instagram.com/igushuttle/" class="mleft-5"><i class="fa fa-lg fa-instagram"></i></a></li>
+		                    <li class="marhor-5"><a href="https://plus.google.com/u/0/112970958383597837578/" class="mleft-5"><i class="fa fa-lg fa-google-plus"></i></a></li>
 		                </p>
 		                <hr>
 		                <p class="font-0-9em">&copy; Copyright 2017. IguShuttle - Foz do Iguaçu</p>

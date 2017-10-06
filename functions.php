@@ -40,8 +40,10 @@
 	add_action('init', 'registrar_menu_navegacao');
 
 	function generateTitle() {
-		the_title();
-		if (!is_home()) { echo ' - '; };
+		if (!is_home()) {
+			the_title();
+			echo ' - ';
+		};
 		bloginfo('name');
 	}
 
@@ -59,9 +61,9 @@
 			array(
 				'name'          => 'Widgets da direita',
 				'id'            => 'widgets_direita',
-				'before_widget' => '<div class="padding-15 bg-fff">',
+				'before_widget' => '<div class="padding-15 mbottom-30 bg-fff">',
 				'after_widget'  => '</div>',
-				'before_title'  => '<h3 class="margin-0 pbottom-15 mbottom-15 bbottom-1-secundario font-1-1em text-uppercase">',
+				'before_title'  => '<h3 class="text-center margin-0 pbottom-15 mbottom-15 bbottom-1-secundario font-1-1em text-uppercase">',
 				'after_title'   => '</h3>',
 			)
 		);
